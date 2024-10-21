@@ -1,23 +1,37 @@
 *{
     box-sizing: border-box;
     margin:0;
+    font-family: Roboto,"Times New Roman";
 }
 footer{
-    background-color: rgb(47, 79, 79);
+    background-color: #1f2937;
     height:100px;
     display:flex;
     justify-content:center;
     align-items: center;
 }
+nav h2{
+    color:#f9faf8;
+    font-size: 24px;
+}
 footer div{
     color:white;
+}
+.content1 h2{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900px;
+}
+.content1 p{
+    font-size: 18px;
+    color:#e5e7eb;
 }
 .sec1,.sec2, .sec3,.sec4{
     padding-left: 20px;
     padding-right: 20px;
 }
 .sec1{
-    background-color: darkslategrey;
+    background-color: #1f2937;
     height:300px;
 }
 .sec2{
@@ -26,8 +40,13 @@ footer div{
     justify-content: center;
     height:300px;
 }
+.sec2 h2{
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
 .sec3{
-    background-color: grey;
+    background-color: #e5e7eb;
     height:250px;
     display:flex;
     justify-content: center;
@@ -42,7 +61,7 @@ footer div{
     
 }
 .sec4 > div{
-    background-color: rgb(42, 109, 177);
+    background-color: #3882f6;
    /* flex:1; */
     height: 150px;
     width:80%;
@@ -67,7 +86,7 @@ footer div{
 .sec4 button{
     width: 80px;
     height:30px;
-    background-color: rgb(42, 109, 177);
+    background-color: #3882f6;
     border:2px solid white;
     border-radius: 8px;
     color: white;
@@ -80,10 +99,15 @@ footer div{
     /* background-color: blue; */
     justify-content: center;
     align-items:center;
+    
 }
 .sec3-content :first-child{
     font-style: italic;
     text-align: center;
+    color:#1e2937;
+    font-size: 36px;
+    font-weight: lighter;
+    
 }
 .sec3-content :last-child{
     align-self: flex-end;
@@ -136,18 +160,19 @@ footer div{
 .content-box div {
     flex:1;
     color:white;
-    line-height: 1.2;
+    /* line-height: 1.2; */
     height:150px;
 }
 .content-box div button{
     color:white;
-    background-color: blue;
+    background-color: #3882f6;
     border: none;
     padding:3px 15px 3px 15px;
     border-radius: 5px;
     font-weight: bold;
     margin-top: 10px;
     align-self: flex-start;
+    
 }
 .content-box div img{
     width:300px;
@@ -173,8 +198,9 @@ section nav ul li{
 }
 section nav ul li a{
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
     font-weight: bold; 
+    font-size: 18px;
     padding:5px;
 }
 section nav ul li a:hover{
